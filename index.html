@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <title>Shopping Cart || Home Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand mr-dafoe-regular"><i class="fab fa-shopify"></i> Beauty Shop</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html" class="me-2">Sing in </a></li>
+                        <li><a href="register.html">Sign up</a></li>
+                    </ul>
+                    <ul id="user_info">
+                        <li><a href="#" id="user"></a></li>
+                        <li class="shopping_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge">1</span>
+                            <div class="carts_products">
+                                <ul></ul>
+                                <a href="cartsproducts.html">View All Products</a>
+
+                            </div>
+
+                        </li>
+
+                        <li><a href="./login.html" id="logout">Log Out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container-md mt-5 pb-5 ">
+
+            <ul
+                class="products row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-sart align-items-center g-4 ">
+
+                <li price="10000" class="card border-info p-0  ">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        REFY - Duo Brush
+                    </div>
+                    <img src="./images/refry-removebg-preview.png" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">REFY's Duo Brush is
+                            made from synthetic vegan fibres. It has been designed for perfect application when using
+                            our
+                            Cream
+                            Bronzer and Cream Blush. </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">1000$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn">
+                        <i class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+                </li> <!-- item 1  -->
+
+                <li price="1500" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        combo lip
+                    </div>
+                    <img src="./images/lipstick.jpg" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">From new skincare finds perfect for the cold weather to
+                            holiday-approved eyeshadow and lip combos
+                            , this is my current Sephora wishlist.</p>
+                    </div>
+                    <div class=" order-5 card-footer text-center">1500$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+                </li> <!-- item 1  -->
+
+                <li price="555" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        Lash Princess Mascara
+
+                    </div>
+                    <img src="./images/maskara.jpg" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect. </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">555$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 1  -->
+
+                <li price="90" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        Yasu Eye Shadow Plate
+                    </div>
+                    <img src="./images/eyelash.png" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect. </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">90$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 1  -->
+
+                <li price="888" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        e.l.f. Liquid Filter
+                    </div>
+                    <img src="./images/fondation.png" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect.
+                        </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">888$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 1  -->
+
+                <li price="700" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        Eyelash Curler
+                    </div>
+                    <img src="./images/roler.png" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect.
+                        </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">700$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 1  -->
+
+                <li price="308" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        KIKO lip-stick
+                    </div>
+                    <img src="./images/d758031fe9c566ad2b7797e1cf99f219-removebg-preview.png" height="200" alt=""
+                        class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect.
+                        </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">308$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 7  -->
+
+                <li price="930" class="card border-info p-0">
+                    <div class="card-header  bg-light text-center text-capitalize  lead">
+                        Blusher
+                    </div>
+                    <img src="./images/blush.png" height="200" alt="" class="card-img p-2 rounded-4">
+
+                    <div class="card-body text-center">
+                        <p class="text-muted text-start">
+                            essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing
+                            mascara
+                            with a conically shaped fiber brush for
+                            a false lash effect.
+                        </p>
+                    </div>
+                    <div class="order-5 card-footer text-center">930$</div>
+
+                    <a href="#result" class="btn btn-outline-info w-75 m-auto mb-3 " id="add_btn"><i
+                            class="bi bi-cart-plus-fill me-2"></i>Add to
+                        chart
+                    </a>
+
+                </li> <!-- item 8  -->
+            </ul>
+
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

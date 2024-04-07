@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Mr+Dafoe&display=swap');
+
+* {
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: fit-content;
+    background-color: rgb(151, 232, 255);
+    padding: 7px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: baseline;
+}
+
+.header-content .brand {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    min-width: 80px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* **********************form***************************** */
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    text-align: center;
+    background-color: rgb(151, 232, 255);
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+
+.section-form h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.section-form form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    border: 1px solid rgb(151, 232, 255);
+    border-radius: 8px;
+    padding: 25px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    outline: none;
+    background-color: #fff;
+}
+
+.section-form form input[type="submit"] {
+    font-size: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(151, 232, 255);
+    margin-bottom: 20px;
+
+}
+
+.section-form form input[type="submit"]:hover {
+    opacity: .76;
+
+}
+
+
+
+/* //////////////////////////////////////////////////////////// */
+
+.products {
+    /* width: 60%;
+    margin: 10px 0; */
+}
+
+.product_item {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* background-color: green; */
+    border: 1px solid #ddd;
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+.product_item_img {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.product_item_action {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.product_item .add_to_cart {
+    display: block;
+    margin-left: auto;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product_item .fav {
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    margin-left: auto;
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+nav ul#user_info {
+    display: none;
+    align-items: baseline;
+}
+
+nav ul#user_info li i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav ul#user_info li {
+    margin: 0px 10px;
+    position: relative;
+}
+
+nav ul#user_info li .badge {
+    position: absolute;
+    width: fit-content;
+    height: 18px;
+    background-color: rgb(255, 132, 132);
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    display: none;
+    transition: 0.5s;
+}
+nav ul#user_info li i:hover {
+    color: rgb(65, 147, 165);
+    transition: 0.5s;
+
+   
+}
+
+
+nav li a{
+    background-color: white;
+    border-radius: 40%;
+    padding: 10px;
+    transition: 0.5s;
+}
+nav li a,
+nav li a:active,
+nav li a:visited{
+    color: rgb(105, 228, 255);
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rgb(64, 143, 160);
+    color: white;
+
+}
+/* /////////////////////////////////// */
+
+.carts_products {
+    position: absolute;
+    z-index: 5;
+    width: 250px;
+    transform: translate(-40px, 0);
+    background-color: #eaeaea;
+    top: 40px;
+    padding: 10px;
+    border: 1px solid rgb(151, 232, 255);
+    display: none;
+}
+
+.carts_products ul{
+    overflow-y:scroll;
+    padding: 2px 0px;
+    width: 100%;
+    height: 150px ;
+    display: flex;
+    flex-direction: column;
+}
+.carts_products ul li{
+border-bottom: 2px dotted white;
+border-top: 2px dotted white;
+padding: 5px 5px;}
+
+.carts_products a {
+    display: block;
+    margin: 4px 0;
+    background-color: rgb(151, 232, 255);
+    color: #fff !important;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.carts_products a:hover {
+    color: rgb(0, 162, 162) !important;
+    background-color: white;
+
+}
+
+
+.cartProductsDivItem {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 1s;
+}
+
+
+
+.EmptyCart {
+    display: none;
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    font-family: cursive;
+    color: rgb(76, 76, 76);
+    font-size: 25px;
+    border: 10px rgb(151, 232, 255) dotted;
+    padding-left: 10px;
+    border-radius: 5%;
+    height: 350px;
+    background-color: rgba(141, 255, 255, 0.297);
+
+}
+
+.EmptyCart img {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.EmptyCart img:hover {
+    cursor: pointer;
+
+}
+
+
+.toastDiv{
+    display: flex;
+   position: relative;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 10px;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    box-shadow:0px -1px 10px 0px black  ;
+    background-color: white;
+    right: 50%;
+    transform: translate(50%,0%);
+    border-radius: 30px;
+    transition: 2s;
+}
+
+.toastDiv::after{
+    content: "";
+    position: absolute;
+    width: 88%;
+    left: 18px;
+    height: 6.5%;
+background-color: rgb(2, 153, 2);
+border-radius: 30px;
+bottom: 0;
+transition: 1s;
+animation-name: toMove;
+animation-duration: 1.8s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+
+
+}
+
+@keyframes toMove{
+
+    0%{
+        width: 88%;
+    }
+    100%{
+        width: 0%;
+        
+    }
+}
+
+.toastDiv p {
+margin: 0px;}
+/*************************************** fonts ********************************************* */
+
+
+.mr-dafoe-regular {
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
