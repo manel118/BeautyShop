@@ -6,9 +6,11 @@ RemoveAllBtn.addEventListener("click",RemoveAll)
 
 
 if (productsInCart != "[]") {
+    console.log( Object.prototype.toString.call(productsInCart))
+   
     // console.log(productsInCart)
     productsInCart = JSON.parse(productsInCart)
-    // console.log(productsInCart)
+   console.log( Object.prototype.toString.call(productsInCart))
     RemoveAllBtn.style.display="block"
     drawItems()
 } else {
