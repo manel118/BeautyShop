@@ -38,7 +38,7 @@ var productsData = [
     {
         id: 1,
         title: "REFY - Duo Brush",
-        imagesUrl: "../Images/refry-removebg-preview.png",
+        imagesUrl: "./Images/refry-removebg-preview.png",
         discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
         price: "1000$",
         category : "brush"
@@ -46,14 +46,14 @@ var productsData = [
     {
         id: 2,
         title: "Combo Lip",
-        imagesUrl: "../Images/lipstick.jpg",
+        imagesUrl: "./Images/lipstick.jpg",
         discription: "From new skincare finds perfect for the cold weather to holiday-approved eyeshadow and lip combos , this is my current Sephora wishlist.",
         price: "1500$",
         category : "Lip Stick"
     }, {
         id: 3,
         title: "Lash Princess Mascara",
-        imagesUrl: "../Images/maskara.jpg",
+        imagesUrl: "./Images/maskara.jpg",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "555$",
         category : "maskara"
@@ -61,7 +61,7 @@ var productsData = [
     {
         id: 4,
         title: "Yasu Eye Shadow Plate",
-        imagesUrl: "../Images/eyelash.png",
+        imagesUrl: "./Images/eyelash.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "90$",
         category :"plate"
@@ -69,21 +69,21 @@ var productsData = [
     {
         id: 5,
         title: "E.L.F. Liquid Filter",
-        imagesUrl: "../Images/fondation.png",
+        imagesUrl: "./Images/fondation.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "800$",
         category : "fondation"
     }, {
         id: 6,
         title: "Eyelash Curler",
-        imagesUrl: "../Images/roler.png",
+        imagesUrl: "./Images/roler.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "700$",
         category : "eyelash curler"
     }, {
         id: 7,
         title: "KIKO Lip-Stick",
-        imagesUrl: "../Images/d758031fe9c566ad2b7797e1cf99f219-removebg-preview.png",
+        imagesUrl: "./Images/d758031fe9c566ad2b7797e1cf99f219-removebg-preview.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "308$",
         category :"Lip Stick"
@@ -91,7 +91,7 @@ var productsData = [
     {
         id: 8,
         title: "Blusher",
-        imagesUrl: "../Images/blush.png",
+        imagesUrl: "./Images/blush.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
         price: "930$",
         category :"fondation"
@@ -100,7 +100,7 @@ var productsData = [
     {
         id: 9,
         title: "Brush2",
-        imagesUrl: "../Images/brush3.jpg",
+        imagesUrl: "./Images/brush3.jpg",
         discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
         price: "1000$",
         category : "brush"
@@ -109,7 +109,7 @@ var productsData = [
     {
         id: 10,
         title: "Brush3",
-        imagesUrl: "../Images/brushTow.jpg",
+        imagesUrl: "./Images/brushTow.jpg",
         discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
         price: "1000$",
         category : "brush"
@@ -118,7 +118,7 @@ var productsData = [
     {
         id: 11,
         title: "Brush4",
-        imagesUrl: "../Images/brushFour.jpg",
+        imagesUrl: "./Images/brushFour.jpg",
         discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
         price: "1000$",
         category : "brush"
