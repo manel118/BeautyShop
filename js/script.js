@@ -128,11 +128,11 @@ var productsData = [
 
 function drawItems() {
     let y = productsData.map((item) => {
-        return `<li price="${item.price}}" class="card border-info p-0">
+        return `<li price='${item.price}}" class="card border-info p-0">
         <div class="card-header  bg-light text-center text-capitalize  lead">
            ${item.title}
         </div>
-        <img src="${item.imagesUrl}" height="200" alt="" class="card-img p-2 rounded-4">
+        <img src='${item.imagesUrl}' height="200" alt="" class="card-img p-2 rounded-4">
 
         <div class="card-body text-center">
             <p class="text-muted text-start">
