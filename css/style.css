@@ -59,7 +59,7 @@ nav li a {
 
     width: 45%;
     text-align: center;
-    background-color: rgb(151, 232, 255);
+    background: linear-gradient(90deg , #ff0000 ,#1f00ff);
     padding: 30px 20px;
     border-radius: 30px;
 }

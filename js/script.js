@@ -41,55 +41,89 @@ var productsData = [
         imagesUrl: "../Images/refry-removebg-preview.png",
         discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
         price: "1000$",
-      
-    
+        category : "brush"
     },
     {
         id: 2,
         title: "Combo Lip",
         imagesUrl: "../Images/lipstick.jpg",
         discription: "From new skincare finds perfect for the cold weather to holiday-approved eyeshadow and lip combos , this is my current Sephora wishlist.",
-        price: "1500$"
+        price: "1500$",
+        category : "Lip Stick"
     }, {
         id: 3,
         title: "Lash Princess Mascara",
         imagesUrl: "../Images/maskara.jpg",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "555$"
+        price: "555$",
+        category : "maskara"
     },
     {
         id: 4,
         title: "Yasu Eye Shadow Plate",
         imagesUrl: "../Images/eyelash.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "90$"
+        price: "90$",
+        category :"plate"
     },
     {
         id: 5,
         title: "E.L.F. Liquid Filter",
         imagesUrl: "../Images/fondation.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "800$"
+        price: "800$",
+        category : "fondation"
     }, {
         id: 6,
         title: "Eyelash Curler",
         imagesUrl: "../Images/roler.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "700$"
+        price: "700$",
+        category : "eyelash curler"
     }, {
         id: 7,
         title: "KIKO Lip-Stick",
         imagesUrl: "../Images/d758031fe9c566ad2b7797e1cf99f219-removebg-preview.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "308$"
+        price: "308$",
+        category :"Lip Stick"
     },
     {
         id: 8,
         title: "Blusher",
         imagesUrl: "../Images/blush.png",
         discription: "essence - Lash Princess False Lash Effect Mascara . Gluten & Cruelty Free . Volumizing mascara with a conically shaped fiber brush for a false lash effect.",
-        price: "930$"
+        price: "930$",
+        category :"fondation"
     }
+,
+    {
+        id: 9,
+        title: "Brush2",
+        imagesUrl: "../Images/brush3.jpg",
+        discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
+        price: "1000$",
+        category : "brush"
+    }
+,
+    {
+        id: 10,
+        title: "Brush3",
+        imagesUrl: "../Images/brushTow.jpg",
+        discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
+        price: "1000$",
+        category : "brush"
+    }
+    ,
+    {
+        id: 11,
+        title: "Brush4",
+        imagesUrl: "../Images/brushFour.jpg",
+        discription: "REFY's Duo Brush is made from synthetic vegan fibres. It has been designed for perfect application when using our Cream Bronzer and Cream Blush.",
+        price: "1000$",
+        category : "brush"
+    }
+    
 ]
 
 function drawItems() {
@@ -98,8 +132,7 @@ function drawItems() {
         <div class="card-header  bg-light text-center text-capitalize  lead">
            ${item.title}
         </div>
-        <img src="${item.imagesUrl}" height="200" alt=""
-            class="card-img p-2 rounded-4">
+        <img src="${item.imagesUrl}" height="200" alt="" class="card-img p-2 rounded-4">
 
         <div class="card-body text-center">
             <p class="text-muted text-start">
@@ -117,7 +150,7 @@ function drawItems() {
     })
 
 
-    allProducts.innerHTML = y.join("")
+    allProducts.innerHTML = y.join("\n")
 }
 
 drawItems()
